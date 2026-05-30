@@ -7,14 +7,11 @@ Checks: >
   performance-*,
   portability-*,
   readability-*,
-
   -modernize-use-trailing-return-type,
   
 WarningsAsErrors: ''
 
 FormatStyle: file
-
-AnalyzeTemporaryDtors: false
 
 CheckOptions:
   # Namespaces
