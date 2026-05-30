@@ -17,19 +17,6 @@ FormatStyle: file
 AnalyzeTemporaryDtors: false
 
 CheckOptions:
-  # 4. Class Members
-  - key: readability-identifier-naming.MemberVariableCase
-    value: lower_case
-  - key: readability-identifier-naming.MemberVariableCase.PrivateMemberSuffix
-    value: '_'
-  - key: readability-identifier-naming.MemberVariableCase.ProtectedMemberSuffix
-    value: '_'
-
-  # 5. Constants
-  - key: readability-identifier-naming.ConstantCase
-    value: UPPER_CASE
-
-#NEEEEEWWWWW
   # Namespaces
   - key: readability-identifier-naming.NamespaceCase
     value: lower_case
