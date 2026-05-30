@@ -1,0 +1,43 @@
+BasedOnStyle: LLVM
+Language: Cpp
+Standard: Latest
+
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+ColumnLimit: 100
+
+AccessModifierOffset: -4
+
+BreakBeforeBraces: Stroustrup
+
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: false
+
+PointerAlignment: Left
+ReferenceAlignment: Left
+
+SortIncludes: true
+IncludeBlocks: Regroup
+
+SpaceBeforeParens: ControlStatements
+
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+
+NamespaceIndentation: All
+
+SeparateDefinitionBlocks: Always
+
+ReflowComments: true
+
+EmptyLineBeforeAccessModifier: LogicalBlock
+
+PackConstructorInitializers: NextLine
+
+BinPackArguments: false
+BinPackParameters: false

@@ -1,0 +1,105 @@
+Checks: >
+  -*,
+  bugprone-*,
+  clang-analyzer-*,
+  concurrency-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  readability-*,
+
+  -modernize-use-trailing-return-type,
+  
+WarningsAsErrors: ''
+
+FormatStyle: file
+
+AnalyzeTemporaryDtors: false
+
+CheckOptions:
+  # 4. Class Members
+  - key: readability-identifier-naming.MemberVariableCase
+    value: lower_case
+  - key: readability-identifier-naming.MemberVariableCase.PrivateMemberSuffix
+    value: '_'
+  - key: readability-identifier-naming.MemberVariableCase.ProtectedMemberSuffix
+    value: '_'
+
+  # 5. Constants
+  - key: readability-identifier-naming.ConstantCase
+    value: UPPER_CASE
+
+#NEEEEEWWWWW
+  # Namespaces
+  - key: readability-identifier-naming.NamespaceCase
+    value: lower_case
+
+  # Types
+  - key: readability-identifier-naming.ClassCase
+    value: CamelCase
+
+  - key: readability-identifier-naming.StructCase
+    value: CamelCase
+
+  - key: readability-identifier-naming.EnumCase
+    value: CamelCase
+
+  - key: readability-identifier-naming.EnumConstantCase
+    value: CamelCase
+
+  - key: readability-identifier-naming.TypeAliasCase
+    value: CamelCase
+
+  # Functions
+  - key: readability-identifier-naming.FunctionCase
+    value: lower_case
+
+  - key: readability-identifier-naming.MethodCase
+    value: lower_case
+
+  # Variables
+  - key: readability-identifier-naming.VariableCase
+    value: lower_case
+
+  - key: readability-identifier-naming.LocalVariableCase
+    value: lower_case
+
+  - key: readability-identifier-naming.ParameterCase
+    value: lower_case
+
+  - key: readability-identifier-naming.GlobalVariableCase
+    value: lower_case
+
+  - key: readability-identifier-naming.StaticVariableCase
+    value: lower_case
+
+  # Members
+  - key: readability-identifier-naming.PublicMemberCase
+    value: lower_case
+
+  - key: readability-identifier-naming.PrivateMemberCase
+    value: lower_case
+
+  - key: readability-identifier-naming.PrivateMemberSuffix
+    value: _
+
+  - key: readability-identifier-naming.ProtectedMemberCase
+    value: lower_case
+
+  - key: readability-identifier-naming.ProtectedMemberSuffix
+    value: _
+
+  # Constants
+  - key: readability-identifier-naming.ConstantCase
+    value: lower_case
+
+  - key: readability-identifier-naming.ConstexprVariableCase
+    value: lower_case
+
+  # Templates
+  - key: readability-identifier-naming.TemplateParameterCase
+    value: CamelCase
+
+  # Macros
+  - key: readability-identifier-naming.MacroDefinitionCase
+    value: UPPER_CASE

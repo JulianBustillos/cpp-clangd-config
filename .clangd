@@ -1,0 +1,21 @@
+Diagnostics:
+  ClangTidy:
+    FastCheckFilter: Strict
+
+  UnusedIncludes: Strict
+
+InlayHints:
+  Enabled: true
+
+Hover:
+  ShowAKA: true
+
+Completion:
+  AllScopes: true
+
+Index:
+  Background: Build
+  StandardLibrary: Yes
+
+SwitchSourceHeader:
+  Enabled: true
