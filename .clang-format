@@ -30,6 +30,7 @@ AlignConsecutiveAssignments: false
 AlignConsecutiveDeclarations: false
 
 NamespaceIndentation: All
+FixNamespaceComments: false
 
 SeparateDefinitionBlocks: Always
 
