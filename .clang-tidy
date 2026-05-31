@@ -3,11 +3,14 @@ Checks: >
   bugprone-*,
   clang-analyzer-*,
   concurrency-*,
+  cppcoreguidelines-*,
   modernize-*,
   performance-*,
   portability-*,
   readability-*,
+  -cppcoreguidelines-avoid-magic-numbers,
   -modernize-use-trailing-return-type,
+  -readability-magic-numbers
   
 WarningsAsErrors: ''
 
@@ -72,6 +75,13 @@ CheckOptions:
 
   - key: readability-identifier-naming.ProtectedMemberSuffix
     value: _
+
+  # Constants
+  - key: readability-identifier-naming.ConstantCase
+    value: lower_case
+
+  - key: readability-identifier-naming.ConstexprVariableCase
+    value: lower_case
 
   # Templates
   - key: readability-identifier-naming.TemplateParameterCase
