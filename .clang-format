@@ -2,6 +2,7 @@ BasedOnStyle: LLVM
 Language: Cpp
 Standard: Latest
 
+
 IndentWidth: 4
 TabWidth: 4
 UseTab: Never
@@ -12,6 +13,7 @@ AccessModifierOffset: -4
 
 BreakBeforeBraces: Attach
 
+AllowShortEnumsOnASingleLine: false
 AllowShortFunctionsOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: Never
 AllowShortLoopsOnASingleLine: false
